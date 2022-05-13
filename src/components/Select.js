@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css'
 export default function Select(){
   return(
 <select name="readselect" id="read">

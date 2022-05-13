@@ -6,6 +6,8 @@ import HomeComponent from './components/Home';
 import Card from './components/Card'
 import { Routes ,Route } from 'react-router-dom';
 import Category from './components/category';
+import Book from './components/Book';
+
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     
     <Routes>
     <Route path='/Category' element={<Category/>} />
+    <Route path='/Book' element={<Book/>} />
+
     </Routes>
     
     

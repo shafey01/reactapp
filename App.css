@@ -79,3 +79,8 @@
 .side-bar-hover:hover {
   color: rgb(236, 236, 75);
 }
+
+
+#read{
+  display: block;
+}
